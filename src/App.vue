@@ -1,21 +1,22 @@
 <template>
   <div id="app">
-    <Navbar />
-    <router-view/>
-    <Footer />
+    <Navbar/>
+    <Landing/>
+    
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar'
-import Footer from './components/Footer'
+import Landing from './components/Landing'
 
 export default {
-   components: {
+  name: "App",
+  components: {
     Navbar,
-    Footer
+    Landing
   }
-}
+};
 </script>
 
 <style>
