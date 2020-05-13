@@ -26,7 +26,7 @@ export default {
       navbar_text_1: "NASLOVNICA",
       navbar_text_2: "ODABERI ZNANJE",
       navbar_text_3: "INFORMACIJE",
-      navbar_text_4: "RAZEDMENI POSTUPAK",
+      navbar_text_4: "RAZREDBENI POSTUPAK",
     }
   },
   methods: {

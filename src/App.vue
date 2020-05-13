@@ -3,6 +3,7 @@
     <Navbar/>
     <Landing/>
     <SignInForm />
+    <Info />
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import Navbar from './components/Navbar';
 import Landing from './components/Landing';
 import SignInForm from './components/SignInForm';
+import Info from './components/Info'
 export default {
   name: "App",
   components: {
     Navbar,
     Landing,
-    SignInForm
+    SignInForm,
+    Info
   }
 };
 </script>
