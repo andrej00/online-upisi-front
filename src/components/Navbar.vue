@@ -6,10 +6,10 @@
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ml-auto">
-          <b-nav-item href="#">{{navbar_text_1}}</b-nav-item>
-          <b-nav-item href="#">{{navbar_text_2}}</b-nav-item>
-          <b-nav-item href="#">{{navbar_text_3}}</b-nav-item>
-          <b-nav-item href="#">{{navbar_text_4}}</b-nav-item>
+          <b-nav-item href="#" v-scroll-to="'#landing'">{{navbar_text_1}}</b-nav-item>
+          <b-nav-item href="#" v-scroll-to="'#singin-form'">{{navbar_text_2}}</b-nav-item>
+          <b-nav-item href="#" v-scroll-to="'#info'">{{navbar_text_3}}</b-nav-item>
+          <b-nav-item href="#" v-scroll-to="'#'">{{navbar_text_4}}</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </nav>

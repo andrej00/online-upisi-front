@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" id="info">
             <b-container>
                 <b-row>
                     <b-col sm="12" md="5" lg="4">

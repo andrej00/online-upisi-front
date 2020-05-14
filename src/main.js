@@ -6,6 +6,9 @@ import store from './store'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
+import vueScrollto from 'vue-scrollto'
+Vue.use(vueScrollto)
+
 import BootstrapVue from 'bootstrap-vue'
 import vuetify from './plugins/vuetify';
 Vue.use(BootstrapVue);

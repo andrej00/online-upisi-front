@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="landing">
     <div class="naslovna_slika">
       <div class="container">
         <div class="row" style="padding: 100px 0 20px 0">
